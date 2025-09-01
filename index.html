@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Machha Ramchandra Devesh — Personal Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Machha R. Devesh — 3rd year B.Tech CSE student. Projects: Spotify Clone, Wanderlust (Airbnb clone), VSM Portal. Contact: mrdevesh05@gmail.com" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Machha Ramchandra Devesh — Portfolio" />
+    <meta property="og:description"
+        content="3rd year B.Tech Computer Science student — web dev, problem solving, and strategic gameplay." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/og-image.jpg" />
+
+    <!-- Preconnect & Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome (icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Favicon (add your favicon to /img/favicon.ico) -->
+    <link rel="icon" href="img/favicon.ico" />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Header / Nav -->
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+            <div class="brand">Devesh • Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Hero Section -->
+        <section class="hero" aria-label="Hero section">
+            <div class="overlay" aria-hidden="true"></div>
+
+            <div class="hero-content container">
+                <div class="hero-text">
+                    <h1>Hi, I’m <strong>Machha Ramchandra Devesh <br>
+                        </strong> Explorer, Player, and Strategist.</h1>
+                    <p>Passionate about problem-solving, outdoor adventures, and strategic gameplay.</p>
+                </div>
+
+                <div class="hero-img" aria-hidden="false">
+                    <!-- Use a small responsive image and lazy-load non-critical images -->
+                    <picture>
+                        <!-- Add WebP if available -->
+
+                        <img src="img/profile.jpg" alt="Profile photo of Machha Ramchandra Devesh" width="250"
+                            height="250" loading="lazy" />
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="about container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    3rd year B.Tech Computer Science student at MIT Art &amp; Design Technology University, Loni
+                    Kalbhor,
+                    Pune. I thrive on creative solutions, embracing new challenges, and achieving meaningful goals.
+                </p>
+            </div>
+
+            <div class="about-icons" aria-hidden="true">
+                <span title="Hiking">🥾</span>
+                <span title="Badminton">🏸</span>
+                <span title="Chess">♟️</span>
+                <span title="Swimming">🏊</span>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills-traits container">
+            <div class="skills">
+                <h2>Skills</h2>
+                <div class="skills-box">
+                    <!-- MERN -->
+                    <div class="skill" tabindex="0">
+                        <i class="fa-solid fa-layer-group" aria-hidden="true"></i>
+                        <p>Full-Stack: MERN Stack</p>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="skill" tabindex="0">
+                        <i class="fa-solid fa-code" aria-hidden="true"></i>
+                        <p>Frontend: HTML, CSS, JavaScript, React.js</p>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill" tabindex="0">
+                        <i class="fa-solid fa-server" aria-hidden="true"></i>
+                        <p>Backend: Node.js, Express.js</p>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill" tabindex="0">
+                        <i class="fa-solid fa-database" aria-hidden="true"></i>
+                        <p>Databases: MongoDB, MySQL</p>
+                    </div>
+
+                    <!-- Programming -->
+                    <div class="skill" tabindex="0">
+                        <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+                        <p>Programming: Java (Basic)</p>
+                    </div>
+
+                    <!-- Networks -->
+                    <div class="skill" tabindex="0">
+                        <i class="fa-solid fa-network-wired" aria-hidden="true"></i>
+                        <p>Computer Networks: Fundamentals</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="projects container">
+            <div class="projects">
+                <h2>Projects</h2>
+                <p>A selection of projects that showcase my skills and interests.</p>
+
+                <div class="project-cards" role="list">
+                    <article class="project-card" role="listitem">
+                        <div class="card-front">🎵 Spotify Clone</div>
+                        <div class="card-back">
+                            <h3><a href="https://spotifycloneweb2.netlify.app" target="_blank"
+                                    rel="noopener noreferrer">Spotify Clone</a></h3>
+                            <p>Static Spotify web interface using HTML and CSS, replicating desktop layout and design.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="project-card" role="listitem">
+                        <div class="card-front">🏡 Wanderlust – Airbnb Clone</div>
+                        <div class="card-back">
+                            <h3><a href="https://wanderlustu41t.onrender.com/listings" target="_blank"
+                                    rel="noopener noreferrer">Wanderlust – Airbnb Clone</a></h3>
+                            <p>Full-featured lodging marketplace with Node.js, Express, MongoDB, EJS, Cloudinary &
+                                OpenStreetMap.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card" role="listitem">
+                        <div class="card-front">⚽ VSM Portal</div>
+                        <div class="card-back">
+                            <p>Full-stack web app for colleges to register teams, upload documents, select
+                                accommodation, and complete payments.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact -->
+    <footer id="contact" class="contact container" role="contentinfo">
+        <h2>Contact</h2>
+        <div class="contact-box">
+            <div class="contact-card">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mrdevesh05@gmail.com" target="_blank">Email</a>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                <a href="https://www.linkedin.com/in/machha-ramchandra-devesh-1351ab288/" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                <a href="https://github.com/iGoTerror" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+
+        <p class="copyright">© <span id="year"></span> Machha R. Devesh</p>
+    </footer>
+
+    <script>
+        // Small JS: set year and enable simple keyboard focus for cards
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Optional: allow Enter to open project links when focused on the card
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    const link = card.querySelector('a');
+                    if (link) link.click();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
